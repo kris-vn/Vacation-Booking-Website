@@ -1,0 +1,24 @@
+body {
+    font-family: Raleway, Arial;
+    background-color: EEF0F1;
+}
+
+nav {
+    background-color: #AEB2D5;
+}
+
+
+#accomm {
+    background-color: #AED5D1;
+    display: grid;
+    grid-template-columns: 30px 5;
+}
+
+#filters {
+    background-color: #C7D5AE;
+}
+
+aside {
+    background-color: #D5AEB1;
+}
+
