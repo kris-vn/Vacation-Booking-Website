@@ -58,17 +58,22 @@ h1 {
     flex-direction: row;
     align-items: left;
     height: 3em;
-    width: 30em;
+    width: 26.5em;
+}
+
+input:focus {
+    outline: none;
 }
 
 input {
     font-weight: bold;
-    text-align: center;
-    width: 26.5em;
+    font-family: Raleway, Arial;
+    font-size: 18px;
+    text-align: left;
+    width: 22.5em;
     margin: 0px;
+    padding-left: 20px;
     border: 1px solid whitesmoke;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
 }
 
 button {
@@ -77,9 +82,9 @@ button {
     border-bottom-right-radius: 15px;
     background-color: #0065FC;
     color: #F3F6F9;
-    font-weight: 400;
-    font-size: 18px;
-    width: 5em;
+    font-weight: bold;
+    font-size: 17px;
+    width: 7em;
     border: none;
 }
 
@@ -101,18 +106,18 @@ button:active {
 }
 
 #filters {
-    padding-left: 0px;
-    margin: 0px auto;
+    padding: 0px;
     
 }
 
 .filter-category {
-    margin: 1.4em;
-    background-color: white;
-    border-radius: 25px;
-    padding: 15px;
-    text-align: right;
+    padding: auto;
+    border-radius: 35px;
+    text-align: center;
+    width: auto;
+    margin: 0px 10px 0px 10px;
     border: 2px solid RGB(220, 220, 220);
+
 }
 
 #number-acc {
@@ -184,6 +189,7 @@ button:active {
     font-size: 14px;
     padding-left: 21px;
     margin-top: 0px;
+    padding-bottom: 0px;
 }
 
 #show-more {
@@ -275,13 +281,13 @@ aside {
     text-align: center;
     grid-template-rows: repeat(2, 14em);
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 50px;
+    grid-gap: 120px;
     text-align: left;
     margin: 0px auto;
     height: 35em;
     justify-content: center;
-    max-width: 1000px;  
-    padding: 30px; 
+    padding: 30px 0px 70px 0px; 
+    max-width: 1280px;
 }
 
 #one {
@@ -342,9 +348,9 @@ aside {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     width: 20em;
-    height: 27em;
-    padding-bottom: 0px;
-    margin-bottom: 20px;
+    height: 28em;
+    padding-top: 0px;
+    padding-bottom: 25px;
     display: block;
 }
 
@@ -409,7 +415,7 @@ aside {
 footer {
     background-color: whitesmoke;
     margin-bottom: 0px;
-    height: auto;
+    height: 15em;
     
 }
 
@@ -425,6 +431,77 @@ footer {
 }
 
 .footer-section {
-    padding: 10px 20px;
+    padding: 10px 10px;
     margin: 0px auto;
+    width: 15em;
+}
+
+.footer-link{
+    color: black;
+    font-weight: 480;
+    font-size: 17px;
+    margin: 0px;
+}
+
+.fa-map-marker-alt {
+    font-size: 24px;
+    color: black;
+    background-color: whitesmoke;
+    padding: 13px;
+    padding-left: 25px;
+    margin-bottom: 0px auto;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 40px;
+}
+
+#filters i {
+    color: #0065FC;
+    background-color: #DEEBFF;
+    margin: 0px auto;
+    border-radius: 50%;
+    text-align: center;
+    width: auto;
+    height: auto;
+    font-size: 24px;
+    padding: 20px;
+}
+
+.container i {
+    color: #0065FC;
+    background-color: white;
+}
+
+aside i {
+    color: #0065FC;
+    background-color: white;
+}
+
+.icons {
+    padding-left: 20px;
+    padding-top: 0px;
+    margin: -1px;
+}
+
+.icons-popular {
+    padding-left: 20px;
+    padding-top: 65px;
+    margin: -1px;
+}
+
+.fa-info {
+    margin: 15px;
+    margin-left: 0px;
+    color: #0065FC;
+    border-radius: 50%;
+    border: 2px solid #D7DCE3;
+    width: 10px;
+    height: 10px;
+    text-align: center;
+}
+
+.fa-chart-line {
+    color: black;
+    margin-left: 230px;
+    font-size: 26px;
 }
