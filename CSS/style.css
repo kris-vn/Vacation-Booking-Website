@@ -365,7 +365,7 @@ aside {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     width: 23em;
-    height: 14em;
+    height: 15em;
     padding-bottom: 0px;
     display: block;
     margin: 0px auto;
@@ -375,7 +375,7 @@ aside {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     width: 23em;
-    height: 10em;
+    height: 9em;
     padding-bottom: 0px;
     display: block;
     margin: 0px auto;
@@ -567,7 +567,6 @@ aside i {
 .activ p {
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    background-color: white;
 }
 
 #a {
