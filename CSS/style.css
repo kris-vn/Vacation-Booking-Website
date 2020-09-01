@@ -11,13 +11,16 @@ header {
 nav {
     text-align: right;
     padding: 30px 0px 30px 30px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 nav a {
     color: #0065FC;
     font-weight: 480;
     font-size: 18px;
+    margin: 75px;
+    margin-bottom: 50px;
+    margin-right: 0px;
 }
 
 #logo {
@@ -107,17 +110,24 @@ button:active {
 
 #filters {
     padding: 0px;
-    
+}
+
+#filters a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+#filters a:hover {
+    color: #717778;
 }
 
 .filter-category {
-    padding: auto;
     border-radius: 35px;
     text-align: center;
-    width: auto;
-    margin: 0px 10px 0px 10px;
     border: 2px solid RGB(220, 220, 220);
-
 }
 
 #number-acc {
@@ -209,8 +219,6 @@ a {
     color: black;
     font-weight: bold;
     text-decoration: none;
-    margin: 40px;
-    margin-bottom: 50px;
     width: 5.5em;
 }
 
@@ -270,10 +278,9 @@ aside {
 }
 
 #act-heading {
+    max-width: 69em;
     margin: 0px auto;
-    margin-top: 35px;
-    width: 60em;
-    justify-content: center;
+    margin-top: 75px;
 }
 
 .activities {
@@ -304,7 +311,7 @@ aside {
     grid-row: 1 / 2;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: auto;
+    margin: 0px auto;
 }
 
 #three {
@@ -347,61 +354,60 @@ aside {
 #img-one {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    width: 20em;
-    height: 28em;
-    padding-top: 0px;
-    padding-bottom: 25px;
+    width: 23em;
+    height: 32em;
     display: block;
+    margin: 0px auto;
+    padding: 0px;
 }
 
 #img-two {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    width: 20em;
-    height: 12em;
+    width: 23em;
+    height: 14em;
     padding-bottom: 0px;
-    margin-bottom: 20px;
     display: block;
+    margin: 0px auto;
 }
 
 #img-three {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    width: 20em;
-    height: 8em;
-    margin-bottom: 20px;
+    width: 23em;
+    height: 10em;
     padding-bottom: 0px;
     display: block;
+    margin: 0px auto;
 }
 
 #img-four {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    width: 20em;
-    height: 27em;
+    width: 23em;
+    height: 32em;
     padding-bottom: 0px;
-    margin-bottom: 20px;
     display: block;
 }
 
 #img-five {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    width: 20em;
-    height: 10em;
+    width: 23em;
+    height: 12em;
     padding-bottom: 0px;
-    margin-bottom: 20px;
     display: block;
+    margin: 0px auto;
 }
 
 #img-six {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    width: 20em;
-    height: 10em;
+    width: 23em;
+    height: 12em;
     padding-bottom: 0px;
-    margin-bottom: 20px;
     display: block;
+    margin: 0px auto;
 }
 
 .act-caption {
@@ -504,4 +510,82 @@ aside i {
     color: black;
     margin-left: 230px;
     font-size: 26px;
+}
+
+.activ {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    max-width: 108em;
+    max-height: 36em;
+    margin: 0px auto;
+    margin-bottom: 65px;
+    margin-top: 20px;
+}
+
+#picture-a {
+    width: auto;
+    height: 36em;
+    margin: 0px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+}
+
+#picture-b {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 36em;
+    margin: 0px auto;
+}
+
+#picture-c {
+    width: auto;
+    height: 36em;
+    margin: 0px auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#picture-d {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 36em;
+    margin: 0px auto;
+}
+
+.active a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0px auto;
+    width: 5.5em;
+}
+
+.activ p {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: white;
+}
+
+#a {
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#b {
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#c {
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#d {
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
